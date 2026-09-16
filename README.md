@@ -15,34 +15,72 @@
 
 ``` text
 Keenetic-Netcraze/
-│
-├── YouTube/
-│   ├── domains.list
-│   └── ipv4.list
-├── Telegram/
-│   ├── domains.list
-│   └── ipv4.list
-├── Discord/
-│   ├── domains.list
-│   ├── voice-domains.list
-│   ├── ipv4-cloudflare.list
-│   └── ipv4-google-rtc.list
-├── GitHub/
+├── Apple - Domains
 │   └── domains.list
-├── Figma/
-│   ├── domains.list
-│   └── ipv4.list
-├── WhatsApp/
+├── Bybit - Domains
 │   └── domains.list
-├── Facebook-Instagram/
+├── Bybit - IP Fallback
+│   └── ipv4.list
+├── Claude - Domains
 │   └── domains.list
-├── Snapchat/
-│   ├── domains.list
+├── Claude - IP Fallback
 │   └── ipv4.list
-├── Cloudflare/
-│   ├── domains.list
+├── Cursor - Domains
+│   └── domains.list
+├── Discord - Core
+│   └── domains.list
+├── Discord - IP Fallback
 │   └── ipv4.list
-└── AWS-CloudFront/
+├── Discord - Voice
+│   └── domains.list
+├── Facebook Meta - Domains
+│   └── domains.list
+├── Facebook Meta - IP
+│   └── ipv4.list
+├── Figma - Domains
+│   └── domains.list
+├── Figma - IP Fallback
+│   └── ipv4.list
+├── Gemini Antigravity - Domains
+│   └── domains.list
+├── Gemini Antigravity - IP Fallback
+│   └── ipv4.list
+├── GitHub - Domains
+│   └── domains.list
+├── Hugging Face - Domains
+│   └── domains.list
+├── Hugging Face - IP Fallback
+│   └── ipv4.list
+├── Keenetic - Domains
+│   └── domains.list
+├── Loom - Domains
+│   └── domains.list
+├── Mux - Domains
+│   └── domains.list
+├── OpenAI - Domains
+│   └── domains.list
+├── OpenAI - IP Fallback
+│   └── ipv4.list
+├── OpenAI - Voice IP
+│   └── ipv4.list
+├── README.md
+├── Skool - Domains
+│   └── domains.list
+├── Snapchat - Domains
+│   └── domains.list
+├── Snapchat - IP Fallback
+│   └── ipv4.list
+├── Telegram - Domains
+│   └── domains.list
+├── Telegram - IP
+│   └── ipv4.list
+├── WhatsApp Meta - Domains
+│   └── domains.list
+├── WhatsApp Meta - IP
+│   └── ipv4.list
+├── YouTube - Domains
+│   └── domains.list
+└── YouTube - IP Fallback
     └── ipv4.list
 ```
 
@@ -53,8 +91,6 @@ Keenetic-Netcraze/
 -   **domains.list** --- список доменных имён для DNS-маршрутизации.
 -   **ipv4.list** --- резервный список IPv4-подсетей, если приложение
     обращается напрямую по IP.
--   Дополнительные файлы (`voice-domains.list`, `ipv4-cloudflare.list` и
-    так далее) предназначены для отдельных сценариев маршрутизации.
 
 ## Как использовать
 
@@ -69,17 +105,25 @@ Keenetic-Netcraze/
 
 ## Поддерживаемые сервисы
 
--   YouTube
--   Telegram
+-   Apple
+-   Bybit
+-   Claude
+-   Cursor
 -   Discord
--   GitHub
--   Figma
--   WhatsApp
 -   Facebook
--   Instagram
+-   Figma
+-   Google AI
+-   GitHub
+-   Hugging Face
+-   Keenetic
+-   Loom
+-   Mux
+-   OpenAI
+-   Skool
 -   Snapchat
--   Cloudflare
--   AWS CloudFront
+-   Telegram
+-   WhatsApp
+-   Youtube
 
 ## Обновление списков
 
