@@ -5,6 +5,7 @@ api.openai.com
 auth.openai.com
 auth0.openai.com
 backend.chatgpt.com
+canada1.discourse-cdn.com
 cdn.oaistatic.com
 cdn.openai.com
 cdn.openaimerge.com
@@ -12,6 +13,8 @@ cdn.workos.com
 challenges.cloudflare.com
 chat.openai.com
 chatgpt.com
+codex-cloud-backend.chatgpt.com
+codex-cloud-environments.chatgpt.com
 ct.sendgrid.net
 desktop.chat.openai.com
 desktop.chatgpt.com
@@ -21,6 +24,7 @@ files.oaiusercontent.com
 files.openai.com
 forwarder.workos.com
 help.openai.com
+images.openai.com
 images.workoscdn.com
 intercom.io
 intercomcdn.com
